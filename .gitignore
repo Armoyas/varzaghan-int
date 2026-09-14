@@ -1,0 +1,26 @@
+# Dependencies
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Environment
+.env
+*.env
+
+# Data (large files tracked via Git LFS in production)
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+!knowledge-base/Geoelectric/*.txt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
